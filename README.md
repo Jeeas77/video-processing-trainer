@@ -25,25 +25,21 @@
 
 ## Скриншоты
 
-<p align="center">
-  <b>Главное меню приложения</b><br>
-  <img src="https://github.com/user-attachments/assets/dddad3a4-3b0a-42b2-b72b-8194dd03d0b7" width="45%">
-</p>
+**Главное меню приложения**
 
-<p align="center">
-  <b>Видео плеер на экране обучения</b><br>
-  <img src="https://github.com/user-attachments/assets/3c41786b-af90-4281-8629-929ab8c4286e" width="45%">
-</p>
+<img src="https://github.com/user-attachments/assets/dddad3a4-3b0a-42b2-b72b-8194dd03d0b7" width="400">
 
-<p align="center">
-  <b>Экран результатов тестирования</b><br>
-  <img src="https://github.com/user-attachments/assets/f82d9196-ac25-434f-9413-1c7a48ec0143" width="45%">
-</p>
+**Видео плеер на экране обучения**
 
-<p align="center">
-  <b>Модуль обучения</b><br>
-  <img src="https://github.com/user-attachments/assets/4baeb153-778f-4f21-b799-efb12a7efc06" width="45%">
-</p>
+<img src="https://github.com/user-attachments/assets/3c41786b-af90-4281-8629-929ab8c4286e" width="400">
+
+**Экран результатов тестирования**
+
+<img src="https://github.com/user-attachments/assets/f82d9196-ac25-434f-9413-1c7a48ec0143" width="400">
+
+**Модуль обучения**
+
+<img src="https://github.com/user-attachments/assets/4baeb153-778f-4f21-b799-efb12a7efc06" width="400">
 
 
 ## Автор
