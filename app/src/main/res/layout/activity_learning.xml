@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface"
+    tools:ignore="MissingClass">
+
+    <!-- AppBar с прогрессом и вкладками -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/surface"
+        android:contentDescription="@string/appbar_description">
+
+        <!-- Прогресс-бар -->
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:contentDescription="@string/progress_description"
+            app:trackColor="@color/surfaceVariant"
+            app:indicatorColor="@color/purple_500"/>
+
+        <!-- Toolbar -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:contentDescription="@string/toolbar_description"
+            app:navigationIcon="@drawable/ic_arrow_back"
+            app:title="@string/learning_title"
+            app:titleTextColor="@color/onSurface"
+            android:background="@color/surface"
+            app:menu="@menu/learning_menu"/>
+
+        <!-- Вкладки -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/surface"
+            android:contentDescription="@string/tabs_description"
+            app:tabMode="scrollable"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/purple_500"
+            app:tabSelectedTextColor="@color/purple_500"
+            app:tabTextColor="@color/onSurfaceVariant"
+            app:tabRippleColor="@color/ripple_color"
+            tools:ignore="SpeakableTextPresentCheck"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Контент -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/viewpager_description"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

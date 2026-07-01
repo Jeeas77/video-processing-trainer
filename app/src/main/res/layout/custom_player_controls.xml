@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/purple_500"
+    android:padding="12dp">
+
+    <!-- Кнопка "Предыдущее" -->
+    <ImageButton
+        android:id="@id/exo_prev"
+        style="@style/ExoMediaButton.Previous"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/previous"
+        app:tint="@color/white"/>
+
+    <!-- Кнопка "Play" -->
+    <ImageButton
+        android:id="@id/exo_play"
+        style="@style/ExoMediaButton.Play"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/play"
+        app:tint="@color/white"/>
+
+    <!-- Кнопка "Pause" -->
+    <ImageButton
+        android:id="@id/exo_pause"
+        style="@style/ExoMediaButton.Pause"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/pause"
+        app:tint="@color/white"/>
+
+    <!-- Кнопка "Следующее" -->
+    <ImageButton
+        android:id="@id/exo_next"
+        style="@style/ExoMediaButton.Next"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/next"
+        app:tint="@color/white"/>
+
+</LinearLayout>

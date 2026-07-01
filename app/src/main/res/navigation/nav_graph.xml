@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph">
+    <fragment
+        android:id="@+id/videoSectionFragment"
+        android:name="com.example.vkr2025.VideoSectionFragment"
+        android:label="VideoSectionFragment">
+        <argument
+            android:name="title"
+            app:argType="string"/>
+        <argument
+            android:name="videoUrl"
+            app:argType="string"/>
+        <argument
+            android:name="thumbnailUrl"
+            app:argType="string"
+            android:defaultValue="@null"/>
+    </fragment>
+
+</navigation>

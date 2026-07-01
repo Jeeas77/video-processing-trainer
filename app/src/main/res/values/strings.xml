@@ -1,0 +1,43 @@
+<resources>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="app_name">VKR2025</string>
+    <string name="title_activity_learning">activity_learning</string>
+    <string name="learning_content">Здесь будет ваше учебное содержание...\n\n1. Раздел 1\n2. Раздел 2\n3. Раздел 3</string>
+    <string name="sample_learning_text">
+    Здесь разместите ваш учебный текст с форматированием:
+
+    • Основные понятия
+    • Теоретические основы
+    • Примеры применения
+
+    Для абзацев используйте \n\n
+</string>
+        <!-- Добавляем новые строки -->
+        <string name="add_video">Добавить видео</string>
+        <string name="video">Видео</string>
+        <string name="text_content">Текст</string>
+    <string name="learning_title">Обучение</string>
+    <string name="tab_content_description">Вкладки разделов обучения</string>
+    <string name="tab_theory">Теория</string>
+    <string name="tab_theory_description">Теоретические материалы</string>
+    <string name="tab_video">Видео</string>
+    <string name="tab_video_description">Видеоуроки</string>
+
+    <string name="appbar_description">Панель с вкладками обучения</string>
+    <string name="progress_description">Прогресс прохождения курса</string>
+    <string name="toolbar_description">Панель инструментов обучения</string>
+    <string name="tabs_description">Вкладки разделов обучения</string>
+    <string name="viewpager_description">Контейнер материалов обучения</string>
+    <string name="continue_button_description">Продолжить обучение</string>
+
+    <string name="continue_learning">Продолжить обучение</string>
+    <string name="search">Поиск</string>
+    <string name="settings">Настройки</string>
+
+    <string name="tab_sound">Звук</string>
+    <string name="tab_editing">Редактирование</string>
+
+</resources>

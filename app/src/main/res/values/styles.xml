@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ExoMediaButton.Play">
+        <item name="android:src">@drawable/exo_icon_play</item>
+    </style>
+
+    <style name="ExoMediaButton.Pause">
+        <item name="android:src">@drawable/exo_icon_pause</item>
+    </style>
+
+    <style name="ExoMediaButton.Previous">
+        <item name="android:src">@drawable/exo_icon_previous</item>
+    </style>
+
+    <style name="ExoMediaButton.Next">
+        <item name="android:src">@drawable/exo_icon_next</item>
+    </style>
+</resources>
